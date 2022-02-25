@@ -45,3 +45,9 @@ Augmented %>%
 
 
 write.csv(x = Plan,'FieldPlan.csv',row.names = FALSE)
+
+
+
+# Create a character vector of length 1:10 for Genotype
+
+Genotype <- paste('G',sep = '',1:10)
